@@ -9,11 +9,11 @@
 
 ## Game Design
 
--   Camera Orientation: _How are the art assets viewed from? (ie. topdown or side)_
--   Camera Movement: _How does the camera move in your game? (if at all)_
--   Player Health: _How are you handling player health? (healthbar, lives, ?)_
--   End Condition: _How does a game/round/level end?_
--   Scoring: _How does the player earn points in your game?_
+-   Camera Orientation: The game will be viewed from the side.
+-   Camera Movement: As of currently, the camera is fixed with the player moving around the screen. It will likely stay like this, but screen wrapping will probably be removed.
+-   Player Health: The player will have 3 lives, with each hit taken removing a life. (Lives amount subject to change.)
+-   End Condition: Each level would likely end by either clearing all the enemies or defeating a stronger miniboss/boss at the end.
+-   Scoring: Points would be gathered by killing enemies and/or clearing levels.
 
 ### Game Description
 
@@ -22,20 +22,22 @@ _A brief explanation of your game. Inculde what is the objective for the player.
 ### Controls
 
 -   Movement
-    -   Up: 
-    -   Down: 
-    -   Left: 
-    -   Right: 
+    -   Up: W
+    -   Down: S
+    -   Left: A
+    -   Right: D
 -   Fire: 
 
 ## You Additions
 
-_List out what you added to your game to make it different for you_
+During this milestone, I added some animations to the player sprite to make it unique, but the main thing I want to add is an inclusion of a boss enemy to finish off each level (or the one depending on how many we do).
 
 ## Sources
 
--   _List all project sources here –models, textures, sound clips, assets, etc._
--   _If an asset is from the Unity store, include a link to the page and the author’s name_
+Content does not belong to me and I take no credit for the creation of this content listed below. All content falls under fair use due to use for educational purposes. 
+
+Asset Credit:
+    Celeste Bird Spritesheet - https://www.spriters-resource.com/pc_computer/celeste/sheet/169454/
 
 ## Known Issues
 

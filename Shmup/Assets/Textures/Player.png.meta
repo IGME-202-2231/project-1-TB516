@@ -1,0 +1,2890 @@
+fileFormatVersion: 2
+guid: c9f11bee72bad734f95bd29c53544635
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Celeste_Bird_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b41df09a57d9845813140dba8a6142
+      internalID: 490746440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f15833bd59491b48b2c3a0c818e9675
+      internalID: 1530907503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912de9670a545e24b8335b77fa399526
+      internalID: -301673331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db9aa8b72086244eb4c51c72792f4e6
+      internalID: -1187009319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f1fa49b97c69f4784eb9aa2a1dc999
+      internalID: -868463523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17527fbe21b17f4abd3ec72a8447451
+      internalID: 797949265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c902939b482f94b85fd576ff4e9e29
+      internalID: 587115156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed7ff6b02b5f814dadffcbc1fe07e39
+      internalID: 1138671325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99e31452f80bde46b40a366f93a09fe
+      internalID: 940141818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4d63c468c6a8844a1533a0eaaee24d
+      internalID: 689932388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46c58b976bcf7d4d9f8a47266d4908f
+      internalID: -1733313591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a2c7d19c435b84687a9e74cc6b0e6b
+      internalID: -1651933138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d829a83983f64554bb8e60cd86b52434
+      internalID: 1659634246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a46d8e321a4cc44aa2c995c7b6bad26
+      internalID: 437549743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd93131eed99b5448adbc941423a8ccf
+      internalID: 1461364318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50529fc6d99225c49b5d2359c3d9db5e
+      internalID: -766587987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478aae3a525b28745a3855eab852bd61
+      internalID: 1926612035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e96ec8ebf44ea4899e2d5affb6bf31
+      internalID: -1531479920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0152d3120c244f4db9125a696088eef
+      internalID: -1947478653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078ec21f0b0d97043ab813e7abafde69
+      internalID: 1324852349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6793be88912c14eab2cb0bada50b7b
+      internalID: -1105288822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_21
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134f7e84ed3828e46a01ca353e7028b6
+      internalID: 409096462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_22
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1b8caf92231b24f800623daed17278
+      internalID: -771559364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_23
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafa60192dd3c8046a3b05fffb709bbb
+      internalID: -535542240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32b1799221f0c249b38cce130e2db5a
+      internalID: -1283218547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_25
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b2f50f6b8b6e74e83471a2f380de12
+      internalID: 274776505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_26
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd20dcc81f870094fb03cd1b2e517db3
+      internalID: -1734915293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_27
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aea4f1dc40ddb348a8201fd9bd03af0
+      internalID: -396360579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_28
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edca9588a1a9448459cd68f7c76581fc
+      internalID: 1103939097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_29
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9472c5ec64564ce4cb67a816ef349da4
+      internalID: 1409763985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_30
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057b99b18a55e984188a92793e470ae0
+      internalID: 810927974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_31
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aaea860cdc0b5b478755ce3985f42f5
+      internalID: -463076182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_32
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f2988bcc6750c419fea7ec7a338fc6
+      internalID: -1840026170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_33
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b211b948414fee84c83cc9b6b46fafa4
+      internalID: 1774657308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_34
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af53c45e8b3895d4bbb28a5fb9d7ae50
+      internalID: -1811617538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_35
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c611b6a9154cfc458596d091334ce59
+      internalID: -169799065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_36
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918d960175c7b47448047930e54d2bf6
+      internalID: 1788709192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_37
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c40525a9092c24e8b425ccfc40a6ed
+      internalID: 165174074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_38
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45a93b0060fffc4ebf2fc829f9b19cf
+      internalID: 1910605596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_39
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67139f87617f10f408624e6f0eb6290a
+      internalID: 553427784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_40
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f34900c4f87bcf4baed2fd613fbbe7f
+      internalID: -1877218505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_41
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49ce055b99a627409880d29f461e5b9
+      internalID: -1436232249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_42
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1122f839b1624b240b05810835d60dd5
+      internalID: -1792842891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_43
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d362f006caaa044e851f332b3c3c054
+      internalID: -569722918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_44
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cef851280c3a94c970083f54bb9b39
+      internalID: 596588416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_45
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6860ed13dfee0df4388242dfc69a277d
+      internalID: 1035809512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_46
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32e5835403737645b464f416e1fec8f
+      internalID: 242826170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_47
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f994003c478ded447a6d7c3078b7cfb8
+      internalID: 215358315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_48
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 199.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2a3dc7dc539c94fa731a8d0d4b5d3f
+      internalID: -1555950240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f2c2b70511734409ba6a4c52b6f973
+      internalID: 1844796637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 175.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efe9649631ab064aa5dffb320e4d938
+      internalID: -1954394587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_51
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 175.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b30667141718f458d383df8ca67f9b
+      internalID: 447670141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 175.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768b32dca9c12d443b478d5634608add
+      internalID: -1447111355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_53
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 175.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a8d3bb6f09a3748bb5e466e6e4a400
+      internalID: 1082849414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 151.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6224fb4545993d44ba2c7d6fda3094e3
+      internalID: 579984424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_55
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 151.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c51b8f6efa4bf448cfb550e84cc19c
+      internalID: -863480127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_56
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 151.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d97936538e1ce49b737522ff1cb985
+      internalID: 778898211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_57
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 151.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e428baf79e2d3f14baac21c6d4dbde66
+      internalID: 1185788437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 151.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f80a62a9c60a56409ade039b9e5109b
+      internalID: 517989939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_59
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 151.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af1490dc58f4344f88533b470e39c95
+      internalID: -1946667113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_60
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 151.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fc51ebb141eb546953911d21a1514f
+      internalID: -1977734014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_61
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 151.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b97249d99cc4640abc03fc9ccee1aa
+      internalID: -553154777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 151.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfef55332b56304ea7405279f3358e7
+      internalID: 119979499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_63
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 151.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329bd62e1d441674db8d7673b0353795
+      internalID: 1262841420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_64
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 151.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7266111546b7b424a98801bd3318dec7
+      internalID: -776530874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_65
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 151.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c6288bf1caf0d40b1d085523822457
+      internalID: 1514864618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 151.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a251e28a2902949a11661a79b31aa6
+      internalID: 1967581402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_67
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 151.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c407c53aaad826c45b8ab6ad1bb624f9
+      internalID: -312116738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_68
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 151.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260e71019dadf64498d469e137c70bed
+      internalID: -561957627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_69
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 151.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4961b12b93d72f4195130f0f37b7b69
+      internalID: -1637420227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78beb7cbc454b9458a771f76096c37a
+      internalID: 46594853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 127.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129ed9d50de193a499bc1513f36fbf8e
+      internalID: -1634515713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_72
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 127.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b450e8d21d14af46b4c5460b88dbe23
+      internalID: 428129170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_73
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 127.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c9d843723b6f44aa0940da7adc6289
+      internalID: -648126365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 127.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24872d6d26ba2af41ab14254affee91a
+      internalID: 1324263519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_75
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 127.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab57958052ed30a418bab96a6c303f9f
+      internalID: 1582357924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 103.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651a887e466c29e4d88ff46018b4c404
+      internalID: -1304392078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_77
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 103.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f7518e8be1bd74aae74ed0411e0b42
+      internalID: -1293955773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 103.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0689b78cd1a59f4f899b4b67b752704
+      internalID: 598841071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 103.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5dfa64f17f02349af1237878ccef20
+      internalID: -968566801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 103.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9798810f9455df343bfb3c52727d0213
+      internalID: -2078596956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_81
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 103.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a5085a01cf28347a44bc7bfaf80941
+      internalID: -1564328624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0fb736c98c04a4790162b9af585e76
+      internalID: 1645194465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_83
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 79.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20affa38efb24324798c834aea4aec36
+      internalID: 639753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_84
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 79.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfabe3840af989942bf8131349e32d80
+      internalID: -1856729415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_85
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 79.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dab916b78e596a4c9aeacd6eed642a5
+      internalID: 920134093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_86
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 79.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201679d8e92aadc4ca3bf8b53f1f2f66
+      internalID: -1893640245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_87
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 79.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8d03da264ad344e9ee8d4b527e2fd3
+      internalID: -2088480911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_88
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 79.111115
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616c312249663b0449b629c4f1669632
+      internalID: 1802526081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5373023b030bb7449ae7e453bf09191
+      internalID: -1753402992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_90
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d610d25be14f32e4fb4b558afea5f416
+      internalID: 592514795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_91
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bbe97bff46e0e41ae31957ef4c94e2
+      internalID: -957877813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_92
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae76e023f428ba4e91d21b12e1210dd
+      internalID: -1826361058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_93
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4951848d10861499647e80daee51c5
+      internalID: 1887585377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_94
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f6adcf445257e4f931c3a06996e107
+      internalID: 1037232965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_95
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d34a54d5915df242baacbd9a2f3dd1b
+      internalID: 1445158584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_96
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bafda4fd02be6647861a353982a0e39
+      internalID: 1727457020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_97
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25be59e281706d346a24cb559e29da0e
+      internalID: -1753073963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_98
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a3c9ef8c3768243b02c760213a2415
+      internalID: 1222539054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_99
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851bd54a8edcf4f4cb601dd2255b5ed7
+      internalID: 1688227758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_100
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a2ed6fa456bc04ab3fe7900237be47
+      internalID: -1114824494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_101
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a44cf0d4c2cb18459d4ded9f9540f17
+      internalID: -122356485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_102
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91a416ab4c17f946a90d4546b93dba4
+      internalID: 1504636298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_103
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c05148dff62bf40ba9860cdb116816
+      internalID: -1226652332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_104
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84ef347c63aa4d44b6119902d3e7b8a
+      internalID: -1092889370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_105
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375fcdb41cea9b04284e56a6b7152a69
+      internalID: 1418022167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_106
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a59765c0fcdab74795891beebff03b2
+      internalID: 408985490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_107
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e5a1fd34985b74486c5134d495002f
+      internalID: -513741753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_108
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6705cd6affc900a479e650134eb7aa69
+      internalID: -468911434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_109
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fa9ef313d8b0d4e8cb79732c43a2dc
+      internalID: -981192647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_110
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 55.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d24235f3eda70c4286cadfdbfae86d1
+      internalID: -808165840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b918e74e5e8c154ca625b6410a2c099
+      internalID: 18837570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_112
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 31.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bf88aa3305d5249b6e0ef8a0a1f578
+      internalID: 2082915834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_113
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 31.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a40b16def8a544284ec188e9ba73f5
+      internalID: -2137242465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_114
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 31.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d21c77ef04aef4b8565ce5abdaa520
+      internalID: 1746901811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_115
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 31.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d0f775c0915db469ab34d52972e914
+      internalID: -1106738149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_116
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 31.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c3e69dbcd4b3649aa33c5807916647
+      internalID: 345498605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_117
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 31.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d320a5f5648e7541aad47e0ed87c443
+      internalID: 37555793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_118
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 31.11111
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffc95f845d988f4aa01b4d26f8bab07
+      internalID: -1279317319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7.1111107
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51aafd146a6894488eb8a9fefff642a
+      internalID: -152626023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_120
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 7.1111107
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41636228061f594c9a548120fb3291a
+      internalID: -250500985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 7.1111107
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec302619d60d0dc4887313610dec87de
+      internalID: -1167665093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_122
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 7.1111107
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e89beb73aa78f46a3c1ebf693415b6
+      internalID: -128767743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_123
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 7.1111107
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55a9277f88b8e54b99a4e20f25a0444
+      internalID: 799479811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Celeste_Bird_124
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 7.1111107
+        width: 32
+        height: 24.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd99fe7c3c1d8f4459e25933739a0dae
+      internalID: 1543222582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Celeste_Bird_0: 490746440
+      Celeste_Bird_1: 1530907503
+      Celeste_Bird_10: -1733313591
+      Celeste_Bird_100: -1114824494
+      Celeste_Bird_101: -122356485
+      Celeste_Bird_102: 1504636298
+      Celeste_Bird_103: -1226652332
+      Celeste_Bird_104: -1092889370
+      Celeste_Bird_105: 1418022167
+      Celeste_Bird_106: 408985490
+      Celeste_Bird_107: -513741753
+      Celeste_Bird_108: -468911434
+      Celeste_Bird_109: -981192647
+      Celeste_Bird_11: -1651933138
+      Celeste_Bird_110: -808165840
+      Celeste_Bird_111: 18837570
+      Celeste_Bird_112: 2082915834
+      Celeste_Bird_113: -2137242465
+      Celeste_Bird_114: 1746901811
+      Celeste_Bird_115: -1106738149
+      Celeste_Bird_116: 345498605
+      Celeste_Bird_117: 37555793
+      Celeste_Bird_118: -1279317319
+      Celeste_Bird_119: -152626023
+      Celeste_Bird_12: 1659634246
+      Celeste_Bird_120: -250500985
+      Celeste_Bird_121: -1167665093
+      Celeste_Bird_122: -128767743
+      Celeste_Bird_123: 799479811
+      Celeste_Bird_124: 1543222582
+      Celeste_Bird_13: 437549743
+      Celeste_Bird_14: 1461364318
+      Celeste_Bird_15: -766587987
+      Celeste_Bird_16: 1926612035
+      Celeste_Bird_17: -1531479920
+      Celeste_Bird_18: -1947478653
+      Celeste_Bird_19: 1324852349
+      Celeste_Bird_2: -301673331
+      Celeste_Bird_20: -1105288822
+      Celeste_Bird_21: 409096462
+      Celeste_Bird_22: -771559364
+      Celeste_Bird_23: -535542240
+      Celeste_Bird_24: -1283218547
+      Celeste_Bird_25: 274776505
+      Celeste_Bird_26: -1734915293
+      Celeste_Bird_27: -396360579
+      Celeste_Bird_28: 1103939097
+      Celeste_Bird_29: 1409763985
+      Celeste_Bird_3: -1187009319
+      Celeste_Bird_30: 810927974
+      Celeste_Bird_31: -463076182
+      Celeste_Bird_32: -1840026170
+      Celeste_Bird_33: 1774657308
+      Celeste_Bird_34: -1811617538
+      Celeste_Bird_35: -169799065
+      Celeste_Bird_36: 1788709192
+      Celeste_Bird_37: 165174074
+      Celeste_Bird_38: 1910605596
+      Celeste_Bird_39: 553427784
+      Celeste_Bird_4: -868463523
+      Celeste_Bird_40: -1877218505
+      Celeste_Bird_41: -1436232249
+      Celeste_Bird_42: -1792842891
+      Celeste_Bird_43: -569722918
+      Celeste_Bird_44: 596588416
+      Celeste_Bird_45: 1035809512
+      Celeste_Bird_46: 242826170
+      Celeste_Bird_47: 215358315
+      Celeste_Bird_48: -1555950240
+      Celeste_Bird_49: 1844796637
+      Celeste_Bird_5: 797949265
+      Celeste_Bird_50: -1954394587
+      Celeste_Bird_51: 447670141
+      Celeste_Bird_52: -1447111355
+      Celeste_Bird_53: 1082849414
+      Celeste_Bird_54: 579984424
+      Celeste_Bird_55: -863480127
+      Celeste_Bird_56: 778898211
+      Celeste_Bird_57: 1185788437
+      Celeste_Bird_58: 517989939
+      Celeste_Bird_59: -1946667113
+      Celeste_Bird_6: 587115156
+      Celeste_Bird_60: -1977734014
+      Celeste_Bird_61: -553154777
+      Celeste_Bird_62: 119979499
+      Celeste_Bird_63: 1262841420
+      Celeste_Bird_64: -776530874
+      Celeste_Bird_65: 1514864618
+      Celeste_Bird_66: 1967581402
+      Celeste_Bird_67: -312116738
+      Celeste_Bird_68: -561957627
+      Celeste_Bird_69: -1637420227
+      Celeste_Bird_7: 1138671325
+      Celeste_Bird_70: 46594853
+      Celeste_Bird_71: -1634515713
+      Celeste_Bird_72: 428129170
+      Celeste_Bird_73: -648126365
+      Celeste_Bird_74: 1324263519
+      Celeste_Bird_75: 1582357924
+      Celeste_Bird_76: -1304392078
+      Celeste_Bird_77: -1293955773
+      Celeste_Bird_78: 598841071
+      Celeste_Bird_79: -968566801
+      Celeste_Bird_8: 940141818
+      Celeste_Bird_80: -2078596956
+      Celeste_Bird_81: -1564328624
+      Celeste_Bird_82: 1645194465
+      Celeste_Bird_83: 639753
+      Celeste_Bird_84: -1856729415
+      Celeste_Bird_85: 920134093
+      Celeste_Bird_86: -1893640245
+      Celeste_Bird_87: -2088480911
+      Celeste_Bird_88: 1802526081
+      Celeste_Bird_89: -1753402992
+      Celeste_Bird_9: 689932388
+      Celeste_Bird_90: 592514795
+      Celeste_Bird_91: -957877813
+      Celeste_Bird_92: -1826361058
+      Celeste_Bird_93: 1887585377
+      Celeste_Bird_94: 1037232965
+      Celeste_Bird_95: 1445158584
+      Celeste_Bird_96: 1727457020
+      Celeste_Bird_97: -1753073963
+      Celeste_Bird_98: 1222539054
+      Celeste_Bird_99: 1688227758
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
