@@ -7,6 +7,6 @@ public class WeaponController : MonoBehaviour
     public void FireBullet(Vector3 direction)
     {
         GameObject bullet = Instantiate(_bullet, transform.position, Quaternion.identity, StaticInfo.Manager.transform);
-        bullet.GetComponent<ProjectileMovementController>().Direction = direction;
+        bullet.transform.right = direction;
     }
 }
