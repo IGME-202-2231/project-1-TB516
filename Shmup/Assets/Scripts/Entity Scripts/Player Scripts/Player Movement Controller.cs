@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class PlayerMovementController : MonoBehaviour
 {
-    const float _speed = 4;
-    Vector3 _direction;
-    Vector3 _position;
-    Vector3 _velocity;
+    private const float _speed = 4;
+    private Vector3 _direction;
+    private Vector3 _position;
+    private Vector3 _velocity;
 
     public Vector3 Direction
     {
@@ -15,26 +15,26 @@ public class PlayerMovementController : MonoBehaviour
 
     void Update()
     {
-        _velocity = _speed * _direction * Time.deltaTime;
+        _velocity = _speed * Time.deltaTime * _direction;
         _position += _velocity;
 
         #region Screen border collision
-        if (_position.x > StaticInfo.CameraWidth / 2)
+        if (_position.x > GameInfo.CameraWidth / 2)
         {
-            _position.x = StaticInfo.CameraWidth / 2;
+            _position.x = GameInfo.CameraWidth / 2;
         }
-        else if (_position.x < -(StaticInfo.CameraWidth / 2))
+        else if (_position.x < -(GameInfo.CameraWidth / 2))
         {
-            _position.x = -StaticInfo.CameraWidth / 2;
+            _position.x = -GameInfo.CameraWidth / 2;
         }
 
-        if (_position.y > StaticInfo.CameraHeight / 2)
+        if (_position.y > GameInfo.CameraHeight / 2)
         {
-            _position.y = StaticInfo.CameraHeight / 2;
+            _position.y = GameInfo.CameraHeight / 2;
         }
-        else if (_position.y < -(StaticInfo.CameraHeight / 2))
+        else if (_position.y < -(GameInfo.CameraHeight / 2))
         {
-            _position.y = -StaticInfo.CameraHeight / 2;
+            _position.y = -GameInfo.CameraHeight / 2;
         }
         #endregion
 

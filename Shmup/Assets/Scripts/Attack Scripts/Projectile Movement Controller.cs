@@ -17,7 +17,7 @@ public class ProjectileMovementController : MonoBehaviour
 
         _position += _velocity;
 
-        if (_position.x > StaticInfo.CameraWidth / 2 || _position.x < -(StaticInfo.CameraWidth / 2) || _position.y > StaticInfo.CameraHeight / 2 || _position.y < -(StaticInfo.CameraHeight / 2))
+        if (_position.x > GameInfo.CameraWidth / 2 || _position.x < -(GameInfo.CameraWidth / 2) || _position.y > GameInfo.CameraHeight / 2 || _position.y < -(GameInfo.CameraHeight / 2))
         {
             Destroy(gameObject);
         }

@@ -6,7 +6,11 @@ public class WeaponController : MonoBehaviour
 
     public void FireBullet(Vector3 direction)
     {
-        GameObject bullet = Instantiate(_bullet, transform.position, Quaternion.identity, StaticInfo.Manager.transform);
+        if (!GameInfo.GCDReady) return;
+
+        GameObject bullet = Instantiate(_bullet, (transform.position + direction), Quaternion.identity, GameInfo.Manager.transform);
         bullet.transform.right = direction;
+
+        StartCoroutine(GameInfo.StartGCD());
     }
 }
