@@ -122,6 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45725c33c7d451047a9c941b994df5d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _collider: {fileID: -6391859394158271892}
 --- !u!114 &-6391859394158271892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd6db1de63fe37b419e60a668fd72e67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bulletPrefab: {fileID: 6938082815120664988, guid: 49ed0ca7e15f69f49a717266798622ad, type: 3}
+  _bulletPrefabCollider: {fileID: 3402183730768817558, guid: 49ed0ca7e15f69f49a717266798622ad, type: 3}
 --- !u!114 &3145791569176094716
 MonoBehaviour:
   m_ObjectHideFlags: 0

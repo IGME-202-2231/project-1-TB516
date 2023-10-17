@@ -37,7 +37,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7665649855269060920
 SpriteRenderer:
@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd6db1de63fe37b419e60a668fd72e67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bulletPrefab: {fileID: 6938082815120664988, guid: 49ed0ca7e15f69f49a717266798622ad, type: 3}
+  _bulletPrefabCollider: {fileID: 3402183730768817558, guid: 49ed0ca7e15f69f49a717266798622ad, type: 3}
 --- !u!114 &6610709798066729205
 MonoBehaviour:
   m_ObjectHideFlags: 0

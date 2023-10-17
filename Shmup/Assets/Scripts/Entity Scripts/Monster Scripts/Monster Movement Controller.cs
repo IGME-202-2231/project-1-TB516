@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class MonsterMovementController : MonoBehaviour
 {
+    [SerializeField] private EntityCollider _collider;
     private const float _speed = 1.5f;
     private Vector3 _position;
     private Vector3 _velocity;
@@ -21,6 +22,7 @@ public class MonsterMovementController : MonoBehaviour
 
         if (_position.x < -(GameInfo.CameraWidth / 2))
         {
+            CollisionManager.Instance.MarkToRemove(_collider);
             Destroy(gameObject);
         }
 

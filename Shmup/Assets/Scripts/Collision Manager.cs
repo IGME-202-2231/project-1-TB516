@@ -7,32 +7,29 @@ public class CollisionManager : Singleton<CollisionManager>
     private List<EntityCollider> _enemies;
     private List<EntityCollider> _playerProjectiles;
     private List<EntityCollider> _enemyProjectiles;
+    private List<EntityCollider> _collidersToRemove;
 
     private void Start()
     {
         _enemies = new();
         _playerProjectiles = new();
         _enemyProjectiles = new();
+        _collidersToRemove = new();
     }
 
     void Update()
     {
-        for (int i = _enemies.Count - 1; i >= 0; i--)
-        {
-            if (_enemies[i] == null) _enemies.RemoveAt(i);
-        }
-        for (int i = _playerProjectiles.Count - 1; i >= 0; i--)
-        {
-            if (_playerProjectiles[i] == null) _playerProjectiles.RemoveAt(i);
-        }
-        for (int i = _enemyProjectiles.Count - 1; i >= 0; i--)
-        {
-            if (_enemyProjectiles[i] == null) _enemyProjectiles.RemoveAt(i);
-        }
-
         RunCollisionCheck(_playerCollider, _enemyProjectiles);
         RunCollisionCheck(_playerCollider, _enemies);
         RunCollisionCheck(_enemies, _playerProjectiles);
+
+        for (int i = 0; i < _collidersToRemove.Count; i++)
+        {
+            _enemies.Remove(_collidersToRemove[i]);
+            _enemyProjectiles.Remove(_collidersToRemove[i]);
+            _playerProjectiles.Remove(_collidersToRemove[i]);
+        }
+        _collidersToRemove.Clear();
     }
 
     private void RunCollisionCheck(EntityCollider collider, List<EntityCollider> colliderSet)
@@ -43,6 +40,8 @@ public class CollisionManager : Singleton<CollisionManager>
             {
                 Destroy(collider.gameObject);
                 Destroy(colliderSet[j].gameObject);
+
+                _collidersToRemove.Add(colliderSet[j]);
             }
         }
     }
@@ -57,9 +56,17 @@ public class CollisionManager : Singleton<CollisionManager>
                 {
                     Destroy(colliderSetOne[i].gameObject);
                     Destroy(colliderSetTwo[j].gameObject);
+
+                    _collidersToRemove.Add(colliderSetOne[i]);
+                    _collidersToRemove.Add(colliderSetTwo[j]);
                 }
             }
         }
+    }
+
+    public void MarkToRemove(EntityCollider collider)
+    {
+        _collidersToRemove.Add(collider);
     }
 
     public void AddEnemy(GameObject enemy)
