@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MonsterMovementController : MonoBehaviour
 {
-    private const float _speed = .5f;
+    private const float _speed = 1.5f;
     private Vector3 _position;
     private Vector3 _velocity;
 
@@ -14,10 +14,15 @@ public class MonsterMovementController : MonoBehaviour
 
     void Update()
     {
-        _velocity = transform.right + new Vector3(0, (GameInfo.Player.transform.position - transform.position).y * Random.Range(-1.5f, 3f), 0).normalized;
+        _velocity = transform.right + new Vector3(0, (GameInfo.Player.transform.position - transform.position).y * Random.Range(-6f, 10f), 0).normalized;
         _velocity = _speed * Time.deltaTime * _velocity.normalized;
 
         _position += _velocity;
+
+        if (_position.x < -(GameInfo.CameraWidth / 2))
+        {
+            Destroy(gameObject);
+        }
 
         transform.position = _position;
     }

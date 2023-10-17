@@ -13,7 +13,15 @@ public class GameInfo : MonoBehaviour
     public static float CameraWidth => _cameraWidth;
     public static GameObject Manager => _manager;
     public static bool GCDReady => _globalCooldownUp;
-    public static GameObject Player => _playerRef;
+    public static GameObject Player
+    {
+        get
+        {
+            if (_playerRef == null) _playerRef = GameObject.Find("Manager");
+
+            return _playerRef;
+        }
+    }
 
     private void Awake()
     {

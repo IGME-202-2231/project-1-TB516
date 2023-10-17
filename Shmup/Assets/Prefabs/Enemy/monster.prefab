@@ -12,9 +12,12 @@ GameObject:
   - component: {fileID: 8227210444098811917}
   - component: {fileID: 4883744340622674800}
   - component: {fileID: 1706436654154078223}
+  - component: {fileID: -6391859394158271892}
+  - component: {fileID: -408012352025569197}
+  - component: {fileID: 3145791569176094716}
   m_Layer: 0
   m_Name: monster
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,3 +122,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45725c33c7d451047a9c941b994df5d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-6391859394158271892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652565745275091169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41495099e350c91429d79ab4ae3e3705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _radius: 0.4
+--- !u!114 &-408012352025569197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652565745275091169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd6db1de63fe37b419e60a668fd72e67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bulletPrefab: {fileID: 6938082815120664988, guid: 49ed0ca7e15f69f49a717266798622ad, type: 3}
+--- !u!114 &3145791569176094716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652565745275091169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ef75d0d0bcf7942bcfdf4e2c1b6726, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _weaponController: {fileID: -408012352025569197}

@@ -13,9 +13,15 @@ public class InputController : MonoBehaviour
 
     public void OnFire(InputAction.CallbackContext ctx)
     {
-        if (ctx.performed)
+        if (GameInfo.GCDReady && _movementController.Direction == Vector3.zero)
+        {
+            _weaponController.FireBullet(Vector3.right);
+            StartCoroutine(GameInfo.StartGCD());
+        }
+        else if (GameInfo.GCDReady)
         {
             _weaponController.FireBullet(_movementController.Direction);
+            StartCoroutine(GameInfo.StartGCD());
         }
     }
 }

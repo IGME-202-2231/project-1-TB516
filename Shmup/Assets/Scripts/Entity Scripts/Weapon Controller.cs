@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class WeaponController : MonoBehaviour
 {
-    [SerializeField] GameObject _bullet;
+    [SerializeField] GameObject _bulletPrefab;
 
     public void FireBullet(Vector3 direction)
     {
-        if (!GameInfo.GCDReady) return;
-
-        GameObject bullet = Instantiate(_bullet, (transform.position + direction), Quaternion.identity, GameInfo.Manager.transform);
+        GameObject bullet = Instantiate(_bulletPrefab, (transform.position + direction), Quaternion.identity, GameInfo.Manager.transform);
         bullet.transform.right = direction;
+        bullet.tag = gameObject.tag;
 
-        StartCoroutine(GameInfo.StartGCD());
+        CollisionManager.Instance.AddProjectile(bullet.GetComponent<EntityCollider>());
     }
 }
