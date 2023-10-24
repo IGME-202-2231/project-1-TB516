@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - enemy
+  - oobProjectile
+  - oobMonster
+  - PlayerProjectile
+  - enemyProjectile
+  - Boss
   layers:
   - Default
   - TransparentFX

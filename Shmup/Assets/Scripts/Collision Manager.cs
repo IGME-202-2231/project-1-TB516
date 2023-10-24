@@ -1,13 +1,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CollisionManager : Singleton<CollisionManager>
+public class CollisionManager : MonoBehaviour
 {
     [SerializeField] private EntityCollider _playerCollider;
     private List<EntityCollider> _enemies;
     private List<EntityCollider> _playerProjectiles;
     private List<EntityCollider> _enemyProjectiles;
     private List<EntityCollider> _collidersToRemove;
+    [SerializeField] private BossCollider _boss;
 
     private void Start()
     {
@@ -22,6 +23,17 @@ public class CollisionManager : Singleton<CollisionManager>
         RunCollisionCheck(_playerCollider, _enemyProjectiles);
         RunCollisionCheck(_playerCollider, _enemies);
         RunCollisionCheck(_enemies, _playerProjectiles);
+
+        if (_boss.isActiveAndEnabled)
+        {
+            BossCollisionCheck(_boss, _playerProjectiles);
+            BossCollisionCheck(_boss, _playerCollider);
+        }
+
+        if (_playerCollider == null)
+        {
+            GameStateManager.GameOver();
+        }
 
         for (int i = 0; i < _collidersToRemove.Count; i++)
         {
@@ -38,9 +50,10 @@ public class CollisionManager : Singleton<CollisionManager>
         {
             if (collider != null && colliderSet[j] != null && collider.IsCollidingWith(colliderSet[j]))
             {
-                Destroy(collider.gameObject);
+                Destroy(collider);
                 Destroy(colliderSet[j].gameObject);
 
+                _collidersToRemove.Add(collider);
                 _collidersToRemove.Add(colliderSet[j]);
             }
         }
@@ -64,6 +77,25 @@ public class CollisionManager : Singleton<CollisionManager>
         }
     }
 
+    private void BossCollisionCheck(BossCollider boss, List<EntityCollider> colliderSet)
+    {
+        for (int i = 0; i < colliderSet.Count; i++)
+        {
+            BossCollisionCheck(boss, colliderSet[i]);
+        }
+    }
+
+    private void BossCollisionCheck(BossCollider boss, EntityCollider collider)
+    {
+        if (collider != null && boss != null && boss.IsCollidingWith(collider))
+        {
+            boss.Hp -= 1;
+
+            Destroy(collider.gameObject);
+            _collidersToRemove.Add(collider);
+        }
+    }
+
     public void MarkToRemove(EntityCollider collider)
     {
         _collidersToRemove.Add(collider);
@@ -76,13 +108,18 @@ public class CollisionManager : Singleton<CollisionManager>
 
     public void AddProjectile(EntityCollider collider)
     {
-        if (collider.gameObject.tag == "enemy")
+        if (collider.gameObject.tag == "enemyProjectile")
         {
             _enemyProjectiles.Insert(0, collider);
         }
-        else if (collider.gameObject.tag == "Player")
+        else if (collider.gameObject.tag == "PlayerProjectile")
         {
             _playerProjectiles.Insert(0, collider);
         }
+    }
+
+    public void StartBoss()
+    {
+        _boss.gameObject.SetActive(true);
     }
 }

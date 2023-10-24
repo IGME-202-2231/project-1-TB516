@@ -26,7 +26,7 @@ _A brief explanation of your game. Inculde what is the objective for the player.
     -   Down: S
     -   Left: A
     -   Right: D
--   Fire: 
+-   Fire: Space/Mouse1
 
 ## You Additions
 
@@ -38,6 +38,8 @@ Content does not belong to me and I take no credit for the creation of this cont
 
 Asset Credit:
     Celeste Bird Spritesheet - https://www.spriters-resource.com/pc_computer/celeste/sheet/169454/
+    Monster thing spritesheet - Celeste file dump
+    Shinryu - FFRecord keeper
 
 ## Known Issues
 

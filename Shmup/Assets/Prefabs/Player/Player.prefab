@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 6610709798066729205}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -272,6 +272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _bulletPrefabCollider: {fileID: 3402183730768817558, guid: 49ed0ca7e15f69f49a717266798622ad, type: 3}
+  _currentCollider: {fileID: 6610709798066729205}
 --- !u!114 &6610709798066729205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -284,4 +285,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41495099e350c91429d79ab4ae3e3705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _radius: 0.5
+  _circleRadius: 0.5
+  _circleHitboxOffset: {x: 0, y: 0, z: 0}

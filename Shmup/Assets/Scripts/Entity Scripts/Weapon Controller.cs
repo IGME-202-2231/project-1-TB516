@@ -3,13 +3,14 @@ using UnityEngine;
 public class WeaponController : MonoBehaviour
 {
     [SerializeField] EntityCollider _bulletPrefabCollider;
+    [SerializeField] EntityCollider _currentCollider;
 
     public void FireBullet(Vector3 direction)
     {
-        EntityCollider bullet = Instantiate(_bulletPrefabCollider, (transform.position + direction), Quaternion.identity, GameInfo.Manager.transform);
+        EntityCollider bullet = Instantiate(_bulletPrefabCollider, (transform.position + (direction * _currentCollider.Radius)), Quaternion.identity, GameInfo.CollisionManager.transform);
         bullet.gameObject.transform.right = direction;
-        bullet.gameObject.tag = gameObject.tag;
+        bullet.gameObject.tag = gameObject.tag + "Projectile";
 
-        CollisionManager.Instance.AddProjectile(bullet);
+        GameInfo.CollisionManager.AddProjectile(bullet);
     }
 }

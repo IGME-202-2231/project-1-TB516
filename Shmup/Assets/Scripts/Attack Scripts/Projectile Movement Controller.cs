@@ -20,7 +20,8 @@ public class ProjectileMovementController : MonoBehaviour
 
         if (_position.x > GameInfo.CameraWidth / 2 || _position.x < -(GameInfo.CameraWidth / 2) || _position.y > GameInfo.CameraHeight / 2 || _position.y < -(GameInfo.CameraHeight / 2))
         {
-            CollisionManager.Instance.MarkToRemove(_collider);
+            GameInfo.CollisionManager.MarkToRemove(_collider);
+            tag = "oobProjectile";
             Destroy(gameObject);
         }
 

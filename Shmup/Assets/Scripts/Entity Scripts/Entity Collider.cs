@@ -2,15 +2,48 @@ using UnityEngine;
 
 public class EntityCollider : MonoBehaviour
 {
-    [SerializeField] float _radius = 2;
+    [SerializeField] protected float _circleRadius = 2;
 
-    public bool IsCollidingWith(EntityCollider entity)
+    [SerializeField] protected Vector3 _circleHitboxOffset;
+
+    protected Vector3 _circlePos;
+
+    public Vector3 CirclePos => _circlePos;
+
+    public float Radius => _circleRadius;
+
+    protected void Start()
     {
-        return (transform.position - entity.transform.position).magnitude <= _radius + entity._radius;
+        _circlePos = transform.position - _circleHitboxOffset;
     }
 
-    private void OnDrawGizmos()
+    protected void Update()
     {
-        Gizmos.DrawWireSphere(transform.position, _radius);
+        _circlePos = transform.position - _circleHitboxOffset;
+    }
+
+    public virtual bool IsCollidingWith(EntityCollider entity)
+    {
+        return (_circlePos - entity._circlePos).magnitude <= _circleRadius + entity._circleRadius;
+    }
+
+    protected void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(_circlePos, _circleRadius);
+    }
+
+    protected void OnDestroy()
+    {
+        switch (tag)
+        {
+            case "enemy":
+                GameInfo.Score++;
+                GameInfo.Spawner.MonstersKilled++;
+                break;
+            case "oobMonster":
+                GameInfo.Score--;
+                GameInfo.Spawner.MonstersSpawned--;
+                break;
+        }
     }
 }
