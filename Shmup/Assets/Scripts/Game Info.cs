@@ -36,6 +36,9 @@ public class GameInfo : MonoBehaviour
         set
         {
             _points = value;
+
+            if (_scoreElement == null) return;
+
             _scoreElement.text = "Score: " + _points;
         }
     }
