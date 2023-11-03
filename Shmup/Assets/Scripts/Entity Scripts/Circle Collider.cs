@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EntityCollider : MonoBehaviour
+public class CircleCollider : MonoBehaviour
 {
     [SerializeField] protected float _circleRadius = 2;
 
@@ -22,7 +22,7 @@ public class EntityCollider : MonoBehaviour
         _circlePos = transform.position - _circleHitboxOffset;
     }
 
-    public virtual bool IsCollidingWith(EntityCollider entity)
+    public virtual bool IsCollidingWith(CircleCollider entity)
     {
         return (_circlePos - entity._circlePos).magnitude <= _circleRadius + entity._circleRadius;
     }

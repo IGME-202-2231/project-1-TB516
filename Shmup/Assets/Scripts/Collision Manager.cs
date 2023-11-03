@@ -3,11 +3,11 @@ using UnityEngine;
 
 public class CollisionManager : MonoBehaviour
 {
-    [SerializeField] private EntityCollider _playerCollider;
-    private List<EntityCollider> _enemies;
-    private List<EntityCollider> _playerProjectiles;
-    private List<EntityCollider> _enemyProjectiles;
-    private List<EntityCollider> _collidersToRemove;
+    [SerializeField] private CircleCollider _playerCollider;
+    private List<CircleCollider> _enemies;
+    private List<CircleCollider> _playerProjectiles;
+    private List<CircleCollider> _enemyProjectiles;
+    private List<CircleCollider> _collidersToRemove;
     [SerializeField] private BossCollider _boss;
 
     private void Start()
@@ -44,7 +44,7 @@ public class CollisionManager : MonoBehaviour
         _collidersToRemove.Clear();
     }
 
-    private void RunCollisionCheck(EntityCollider collider, List<EntityCollider> colliderSet)
+    private void RunCollisionCheck(CircleCollider collider, List<CircleCollider> colliderSet)
     {
         for (int j = 0; j < colliderSet.Count; j++)
         {
@@ -59,7 +59,7 @@ public class CollisionManager : MonoBehaviour
         }
     }
 
-    private void RunCollisionCheck(List<EntityCollider> colliderSetOne, List<EntityCollider> colliderSetTwo)
+    private void RunCollisionCheck(List<CircleCollider> colliderSetOne, List<CircleCollider> colliderSetTwo)
     {
         for (int i = 0; i < colliderSetOne.Count; i++)
         {
@@ -77,7 +77,7 @@ public class CollisionManager : MonoBehaviour
         }
     }
 
-    private void BossCollisionCheck(BossCollider boss, List<EntityCollider> colliderSet)
+    private void BossCollisionCheck(BossCollider boss, List<CircleCollider> colliderSet)
     {
         for (int i = 0; i < colliderSet.Count; i++)
         {
@@ -85,7 +85,7 @@ public class CollisionManager : MonoBehaviour
         }
     }
 
-    private void BossCollisionCheck(BossCollider boss, EntityCollider collider)
+    private void BossCollisionCheck(BossCollider boss, CircleCollider collider)
     {
         if (collider != null && boss != null && boss.IsCollidingWith(collider))
         {
@@ -96,17 +96,17 @@ public class CollisionManager : MonoBehaviour
         }
     }
 
-    public void MarkToRemove(EntityCollider collider)
+    public void MarkToRemove(CircleCollider collider)
     {
         _collidersToRemove.Add(collider);
     }
 
     public void AddEnemy(GameObject enemy)
     {
-        _enemies.Add(enemy.GetComponent<EntityCollider>());
+        _enemies.Add(enemy.GetComponent<CircleCollider>());
     }
 
-    public void AddProjectile(EntityCollider collider)
+    public void AddProjectile(CircleCollider collider)
     {
         if (collider.gameObject.tag == "enemyProjectile")
         {

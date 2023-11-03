@@ -5,7 +5,7 @@ public class ProjectileMovementController : MonoBehaviour
     const float _speed = 5f;
     Vector3 _position;
     Vector3 _velocity;
-    [SerializeField] EntityCollider _collider;
+    [SerializeField] CircleCollider _collider;
 
     private void Start()
     {

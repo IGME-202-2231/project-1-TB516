@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BossCollider : EntityCollider
+public class BossCollider : CircleCollider
 {
     [SerializeField] private float _maxHp;
 
@@ -47,12 +47,12 @@ public class BossCollider : EntityCollider
         if (_hp <= 0) GameStateManager.GameWin();
     }
 
-    public override bool IsCollidingWith(EntityCollider entity)
+    public override bool IsCollidingWith(CircleCollider entity)
     {
         return base.IsCollidingWith(entity) || RectCollisionCheck(entity);
     }
 
-    private bool RectCollisionCheck(EntityCollider entity)
+    private bool RectCollisionCheck(CircleCollider entity)
     {
         float deltaX = entity.CirclePos.x - Mathf.Max(_rectHitbox.x, Mathf.Min(entity.CirclePos.x, _rectHitbox.x + _rectHitbox.width));
         float deltaY = entity.CirclePos.y - Mathf.Max(_rectHitbox.y - _rectHitbox.height, Mathf.Min(entity.CirclePos.y, _rectHitbox.y + _rectHitbox.height));

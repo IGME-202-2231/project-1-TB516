@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MonsterMovementController : MonoBehaviour
 {
-    [SerializeField] private EntityCollider _collider;
+    [SerializeField] private CircleCollider _collider;
     private const float _speed = 1.5f;
     private Vector3 _position;
     private Vector3 _velocity;
